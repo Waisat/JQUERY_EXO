@@ -1,0 +1,44 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: 750px;
+}
+
+.row_table{
+    display: flex;
+    flex-direction: column;
+}
+
+.border{
+    display: flex;
+
+    flex-wrap: wrap;
+    border:solid 1px black ;
+    width: 100px;
+    height: 75px;
+}
+#button_select{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.choice_style{
+
+    border: solid 1px black;
+    width: 50px;
+    height: 100px;
+}
+
+
+.choice_style {
+
+   display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.validate_turn{
+background-color: forestgreen;
+}
